@@ -112,10 +112,12 @@
 			text-align: center;
 			height: 40px;
 		}
-	.txt, .txt3  {
+	.txt   {
 		padding-top: 40px;
 
 	}
+	.txt3  {
+		padding-top: 40px;
 	
 	}
 	
@@ -247,8 +249,10 @@
 			margin-left: 5%;
 
 		}
-	.txt, .txt3 {
+	.txt  {
 		padding-top: 40px;
 	}
+	.txt3  {
+		padding-top: 40px;
 	 
 }
