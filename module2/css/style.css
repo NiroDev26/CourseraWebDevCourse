@@ -17,6 +17,10 @@
 		margin-right: auto;
 		margin-left: auto;
 		padding: 10px;
+		/*height: 200px;*/
+
+		
+ 
 
 
 		 
@@ -36,7 +40,7 @@
 	@media (min-width: 992px) {
 		.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
 			float: left;
-			border: 1px solid green;
+			border: 1px solid white;
 
 		}
 
@@ -85,7 +89,7 @@
 			margin-right: 5%;
 		 	margin-left: 5%;
 			text-align: center;
-
+			height: 40px;
 		}
 	.title2 {
 			position: relative;
@@ -96,7 +100,7 @@
 		 	
 			text-align: center;
 			margin-left: 5%;
-
+			height: 40px;
 		}
 	.title3 {
 			position: relative;
@@ -106,12 +110,13 @@
 			margin-right: 5%;
 		 	margin-left: 5%;
 			text-align: center;
-
+			height: 40px;
 		}
-	.txt {
+	.txt, .txt3  {
 		padding-top: 40px;
-	}
 
+	}
+	
 	}
 	
 
@@ -120,8 +125,9 @@
 
 		.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
 			float: left;
-			border: 1px solid green;
+			border: 1px solid white;
 			position: relative;
+
 
 		}
 		.col-md-1 {
@@ -171,9 +177,9 @@
 			margin-right: 5%;
 		 	margin-left: 5%;
 			text-align: center;
-
+			height: 40px;
 		}
-	.title2 {
+		.title2 {
 			position: relative;
 			float: right;
 			background-color: brown;
@@ -181,21 +187,28 @@
 			margin-right: 5%;
 		 	margin-left: 5%;
 			text-align: center;
-
+			height: 40px;
 		}
-	.title3 {
+		.title3 {
 			position: relative;
 			float: right;
 			background-color: maroon;
 			width: 100px;
-			margin-right: 5%;
+			margin-right: 2.3%;
 		    margin-left: 5%;
 			text-align: center;
+			height: 40px;
+		}
+		.txt {
+			padding-top: 40px;
 
 		}
-	.txt {
-		padding-top: 40px;
-	}
+		.txt3 {
+			width: 95.5%;
+			padding-top: 40px;
+
+
+		}
 	}
 
 	/** phone **/
@@ -234,7 +247,8 @@
 			margin-left: 5%;
 
 		}
-	.txt {
+	.txt, .txt3 {
 		padding-top: 40px;
 	}
+	 
 }
