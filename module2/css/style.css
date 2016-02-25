@@ -41,7 +41,13 @@
 		width: 100%;
 		 
 	}
-	
+	.txt, .txt3 {
+		font-size: 1.25em;
+	}
+	.title1, .title2, .title3 {
+		font-size: 1.75em;
+
+	}
 	
 /*//**** desktop  */
 	@media (min-width: 992px) {
@@ -95,19 +101,23 @@
 			width: 100px;
 			margin-right: 5%;
 		 	margin-left: 5%;
+
 			text-align: center;
-			height: 40px;
+			top: -8px;
+			height: 55px;
 		}
 	.title2 {
 			position: relative;
 			float: right;
 			background-color: brown;
 			width: 100px;
+
 			margin-right: 5%;
 		 	
 			text-align: center;
 			margin-left: 5%;
-			height: 40px;
+			top: -8px;
+			height: 55px;
 		}
 	.title3 {
 			position: relative;
@@ -117,7 +127,8 @@
 			margin-right: 5%;
 		 	margin-left: 5%;
 			text-align: center;
-			height: 40px;
+			top: -8px;
+			height: 55px;
 		}
 	.txt, .txt3  {
 		padding-top: 40px;
@@ -184,7 +195,8 @@
 			margin-right: 5%;
 		 	margin-left: 5%;
 			text-align: center;
-			height: 40px;
+			top: -8px;
+			height: 55px;
 		}
 		.title2 {
 			position: relative;
@@ -194,7 +206,8 @@
 			margin-right: 5%;
 		 	margin-left: 5%;
 			text-align: center;
-			height: 40px;
+			top: -8px;
+			height: 55px;
 		}
 		.title3 {
 			position: relative;
@@ -204,7 +217,8 @@
 			margin-right: 2.3%;
 		    margin-left: 5%;
 			text-align: center;
-			height: 40px;
+			top: -8px;
+			height: 55px;
 		}
 		.txt {
 			padding-top: 40px;
@@ -233,7 +247,8 @@
 		 	margin-top: 16px;
 			text-align: center;
 			margin-left: 5%;
-			height: 40px;
+			top: 5px;
+			height: 55px;
 			 
 			
 		}
@@ -246,7 +261,8 @@
 		 	margin-top: 16px;
 			text-align: center;
 			margin-left: 5%;
-			height: 40px;
+			top: 5px;
+			height: 55px;
 		}
 	.title3 {
 			position: relative;
@@ -257,7 +273,8 @@
 		 	margin-top: 16px;
 			text-align: center;
 			margin-left: 5%;
-			height: 40px;
+			top: 5px;
+			height: 55px;
 
 
 
