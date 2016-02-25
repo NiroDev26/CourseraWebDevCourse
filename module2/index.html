@@ -2,14 +2,19 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Module 2 is ready</title>
 
 	<header>Module 2</header>
 
+	<!-- <link rel="stylesheet" type="text/css" href="css/mystyles.css" media="screen" /> -->
 <style>
 
 /*** basic style ***/
-
+	body {
+		font-family: serif;
+		font: georgia;
+	}
 	* {
 		box-sizing: border-box;
 	}
@@ -31,11 +36,13 @@
 	}
 	h1 {
 		text-align: center;
+		font-style: italic;
 	}
 	.row {
 		width: 100%;
 		 
 	}
+	
 	
 /*//**** desktop  */
 	@media (min-width: 992px) {
@@ -82,6 +89,37 @@
 			width: 100%;
 
 		}
+		.title1 {
+			position: relative;
+			float: right;
+			background-color: purple;
+			width: 100px;
+			margin-right: 5%;
+		 	margin-left: 5%;
+			text-align: center;
+
+		}
+	.title2 {
+			position: relative;
+			float: right;
+			background-color: brown;
+			width: 100px;
+			margin-right: 5%;
+		 	 
+			text-align: center;
+			margin-left: 5%;
+
+		}
+	.title3 {
+			position: relative;
+			float: right;
+			background-color: maroon;
+			width: 100px;
+			margin-right: 5%;
+		 	margin-left: 5%;
+			text-align: center;
+
+		}
 
 
 	}
@@ -93,6 +131,8 @@
 		.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
 			float: left;
 			border: 1px solid green;
+			position: relative;
+
 		}
 		.col-md-1 {
 			width: 8.33%;
@@ -131,26 +171,98 @@
 		.col-md-12 {
 
 			width: 100%;
+			
+		}
+		.title1 {
+			position: relative;
+			float: right;
+			background-color: purple;
+			width: 100px;
+			margin-right: 5%;
+		 	margin-left: 5%;
+			text-align: center;
+
+		}
+	.title2 {
+			position: relative;
+			float: right;
+			background-color: brown;
+			width: 100px;
+			margin-right: 5%;
+		 	margin-left: 5%;
+			text-align: center;
+
+		}
+	.title3 {
+			position: relative;
+			float: right;
+			background-color: maroon;
+			width: 100px;
+			margin-right: 5%;
+		    margin-left: 5%;
+			text-align: center;
+
 		}
 	}
 
+	/** phone **/
+@media (max-width: 767px) {
+
+	.title1 {
+			position: relative;
+			float: right;
+			background-color: purple;
+			width: 100px;
+			margin-right: 5%;
+		 	margin-top: 0;
+			text-align: center;
+			margin-left: 5%;
+
+		}
+	.title2 {
+			position: relative;
+			float: right;
+			background-color: brown;
+			width: 100px;
+			margin-right: 5%;
+		 	margin-top: 0;
+			text-align: center;
+			margin-left: 5%;
+
+		}
+	.title3 {
+			position: relative;
+			float: right;
+			background-color: maroon;
+			width: 100px;
+			margin-right: 5%;
+		 	margin-top: 0;
+			text-align: center;
+			margin-left: 5%;
+
+		}
+}
 </style>
 
 </head>
 <body>
-	<h1>Module 2 assignment</h1>
+	<h1>Our Menu:</h1>
 
 	
 		<div class="row">
+
 			<div class="col-lg-4 col-md-6">
+			<p class='title1'>Sushi</p>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
 				</p>
 			</div>
 			<div class="col-lg-4 col-md-6">
+			<p class='title2'>Meat</p>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
 				</p>
 			</div>
 			<div class="col-lg-4 col-md-12">
+			<p class='title3'>Fish</p>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
 				</p>
 			</div>
